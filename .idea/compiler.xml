@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="wanchao" />
         <module name="wanchao-generator" />
+        <module name="wanchao-market" />
         <module name="wanchao-user" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="wanchao" target="1.8" />
       <module name="wanchao-generator" target="1.8" />
+      <module name="wanchao-market" target="1.8" />
       <module name="wanchao-user" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -21,6 +23,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="wanchao" options="-parameters" />
       <module name="wanchao-generator" options="-parameters" />
+      <module name="wanchao-market" options="-parameters" />
       <module name="wanchao-user" options="-parameters" />
     </option>
   </component>

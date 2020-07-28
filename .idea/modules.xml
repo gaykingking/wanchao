@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/wanchao.iml" filepath="$PROJECT_DIR$/wanchao.iml" />
       <module fileurl="file://$PROJECT_DIR$/wanchao-generator/wanchao-generator.iml" filepath="$PROJECT_DIR$/wanchao-generator/wanchao-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wanchao-market/wanchao-market.iml" filepath="$PROJECT_DIR$/wanchao-market/wanchao-market.iml" />
       <module fileurl="file://$PROJECT_DIR$/wanchao-user/wanchao-user.iml" filepath="$PROJECT_DIR$/wanchao-user/wanchao-user.iml" />
     </modules>
   </component>
