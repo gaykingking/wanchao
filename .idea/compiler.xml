@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -9,6 +10,8 @@
         <module name="wanchao" />
         <module name="wanchao-generator" />
         <module name="wanchao-market" />
+        <module name="wanchao-nacos" />
+        <module name="wanchao-nacos (1)" />
         <module name="wanchao-user" />
       </profile>
     </annotationProcessing>
@@ -16,6 +19,8 @@
       <module name="wanchao" target="1.8" />
       <module name="wanchao-generator" target="1.8" />
       <module name="wanchao-market" target="1.8" />
+      <module name="wanchao-nacos" target="1.8" />
+      <module name="wanchao-nacos (1)" target="1.8" />
       <module name="wanchao-user" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -24,6 +29,8 @@
       <module name="wanchao" options="-parameters" />
       <module name="wanchao-generator" options="-parameters" />
       <module name="wanchao-market" options="-parameters" />
+      <module name="wanchao-nacos" options="-parameters" />
+      <module name="wanchao-nacos (1)" options="-parameters" />
       <module name="wanchao-user" options="-parameters" />
     </option>
   </component>
