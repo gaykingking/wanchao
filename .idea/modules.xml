@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/wanchao-market/wanchao-market.iml" filepath="$PROJECT_DIR$/wanchao-market/wanchao-market.iml" />
       <module fileurl="file://$PROJECT_DIR$/wanchao-nacos/wanchao-nacos.iml" filepath="$PROJECT_DIR$/wanchao-nacos/wanchao-nacos.iml" />
       <module fileurl="file://$PROJECT_DIR$/wanchao-nacos/wanchao-nacos (1).iml" filepath="$PROJECT_DIR$/wanchao-nacos/wanchao-nacos (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/wanchao-sentinel/wanchao-sentinel.iml" filepath="$PROJECT_DIR$/wanchao-sentinel/wanchao-sentinel.iml" />
       <module fileurl="file://$PROJECT_DIR$/wanchao-user/wanchao-user.iml" filepath="$PROJECT_DIR$/wanchao-user/wanchao-user.iml" />
     </modules>
   </component>
