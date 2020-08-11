@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/wanchao.iml" filepath="$PROJECT_DIR$/wanchao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wanchao-gateway/wanchao-gateway.iml" filepath="$PROJECT_DIR$/wanchao-gateway/wanchao-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/wanchao-generator/wanchao-generator.iml" filepath="$PROJECT_DIR$/wanchao-generator/wanchao-generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/wanchao-market/wanchao-market.iml" filepath="$PROJECT_DIR$/wanchao-market/wanchao-market.iml" />
       <module fileurl="file://$PROJECT_DIR$/wanchao-nacos/wanchao-nacos.iml" filepath="$PROJECT_DIR$/wanchao-nacos/wanchao-nacos.iml" />

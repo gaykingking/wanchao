@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/wanchao-market/pom.xml" />
         <option value="$PROJECT_DIR$/wanchao-nacos/pom.xml" />
         <option value="$PROJECT_DIR$/wanchao-sentinel/pom.xml" />
+        <option value="$PROJECT_DIR$/wanchao-gateway/pom.xml" />
       </list>
     </option>
   </component>

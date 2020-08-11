@@ -17,6 +17,7 @@
     <modules>
         <module>wanchao-nacos</module>
         <module>wanchao-market</module>
+        <module>wanchao-user</module>
     </modules>
 
     <properties>

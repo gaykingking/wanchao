@@ -1,0 +1,19 @@
+#使用服务发现路由
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          #服务路由名小写
+          lower-case-service-id: true
+      #设置路由id
+      routes[0]:
+        id: auth-service
+        #设置路由的uri
+        uri: lb://auth-service
+        #设置路由断言，代理serviceId为auth-service的/auth/路径
+        predicates[0]:
+        - Path=/auth/**
+        filters:
+        - StripPrefix=0
