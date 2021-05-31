@@ -2,12 +2,12 @@ server:
   port: 8080
 spring:
   application:
-    ###·şÎñµÄÃû³Æ
+    ###æœåŠ¡çš„åç§°
     name: ls-member
   cloud:
     nacos:
       discovery:
-        ###nacos×¢²áµØÖ·
+        ###nacosæ³¨å†Œåœ°å€
         server-addr: 127.0.0.1:8848
 
 

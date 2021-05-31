@@ -1,19 +1,19 @@
-#Ê¹ÓÃ·şÎñ·¢ÏÖÂ·ÓÉ
+#ä½¿ç”¨æœåŠ¡å‘ç°è·¯ç”±
 spring:
   cloud:
     gateway:
       discovery:
         locator:
           enabled: true
-          #·şÎñÂ·ÓÉÃûĞ¡Ğ´
+          #æœåŠ¡è·¯ç”±åå°å†™
           lower-case-service-id: true
-      #ÉèÖÃÂ·ÓÉid
+      #è®¾ç½®è·¯ç”±id
       routes[0]:
         id: auth-service
-        #ÉèÖÃÂ·ÓÉµÄuri
+        #è®¾ç½®è·¯ç”±çš„uri
         uri: lb://auth-service
-        #ÉèÖÃÂ·ÓÉ¶ÏÑÔ£¬´úÀíserviceIdÎªauth-serviceµÄ/auth/Â·¾¶
-        predicates[0]:
+        #è®¾ç½®è·¯ç”±æ–­è¨€ï¼Œä»£ç†serviceIdä¸ºauth-serviceçš„/auth/è·¯å¾„
+        predicates:
         - Path=/auth/**
         filters:
         - StripPrefix=0

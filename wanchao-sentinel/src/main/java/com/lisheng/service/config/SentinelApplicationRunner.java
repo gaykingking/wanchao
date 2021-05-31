@@ -4,6 +4,8 @@ import com.alibaba.csp.sentinel.slots.block.RuleConstant;
 import com.alibaba.csp.sentinel.slots.block.flow.FlowRule;
 import com.alibaba.csp.sentinel.slots.block.flow.FlowRuleManager;
 import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;
@@ -16,6 +18,8 @@ import java.util.List;
 public class SentinelApplicationRunner implements ApplicationRunner {
     //限流规则名称
     public static final String GETORDER_KEY="orderToMember";
+
+    private Logger log= LoggerFactory.getLogger(SentinelApplicationRunner.class);
     @Override
     public void run(ApplicationArguments args) throws Exception {
         List<FlowRule> rules=new ArrayList<FlowRule>();
